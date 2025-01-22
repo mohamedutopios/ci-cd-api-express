@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 // Version de l'API
-const API_VERSION = '/v1';
+const API_VERSION = '/v2';
 
 // Jeu de données
 let users = [

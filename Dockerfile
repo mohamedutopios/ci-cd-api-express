@@ -15,4 +15,4 @@ RUN npm install
 EXPOSE 3000
 
 # Commande pour démarrer l'application
-CMD ["node", "api.js"]
+CMD ["node", "api-user.js"]

@@ -25,7 +25,7 @@ jobs:
       - name: Build Docker Image with tags
         run: |
           docker build -t mohamed1780/api-user:latest .
-          docker build -t mohamed1780/api-user${{ github.sha }} .
+          docker build -t mohamed1780/api-user:${{ github.sha }} .
 
       # Étape 4 : Pusher toutes les images Docker
       - name: Push Docker Image with tags

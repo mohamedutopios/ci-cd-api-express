@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 // Version de l'API
-const API_VERSION = '/v2';
+const API_VERSION = '/v3';
 
 // Jeu de données
 let users = [
@@ -12,6 +12,7 @@ let users = [
   { id: 2, name: 'Jane Smith', email: 'jane.smith@example.com', age: 25, role: 'user' },
   { id: 3, name: 'Alice Brown', email: 'alice.brown@example.com', age: 35, role: 'user' },
   { id: 4, name: 'Bob Green', email: 'bob.green@example.com', age: 40, role: 'manager' },
+  { id: 5, name: 'Nadia', email: 'nadia@example.com', age: 25, role: 'manager' },
 ];
 
 // Jeu de données liés (exemple : commandes pour les utilisateurs)

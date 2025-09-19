@@ -8,10 +8,10 @@ const API_VERSION = '/v3';
 
 // Jeu de données
 let users = [
-  { id: 1, name: 'John Doe', email: 'john.doe@example.com', age: 30, role: 'admin' },
-  { id: 2, name: 'Jane Smith', email: 'jane.smith@example.com', age: 25, role: 'user' },
-  { id: 3, name: 'Alice Brown', email: 'alice.brown@example.com', age: 35, role: 'user' },
-  { id: 4, name: 'Bob Green', email: 'bob.green@example.com', age: 40, role: 'manager' },
+  { id: 1, name: 'Christope', email: 'john.doe@example.com', age: 30, role: 'admin' },
+  { id: 2, name: 'Carole', email: 'jane.smith@example.com', age: 25, role: 'user' },
+  { id: 3, name: 'Quentin', email: 'alice.brown@example.com', age: 35, role: 'user' },
+  { id: 4, name: 'Mohamed', email: 'bob.green@example.com', age: 40, role: 'manager' },
   { id: 5, name: 'Nadia', email: 'nadia@example.com', age: 25, role: 'manager' },
 ];
 
